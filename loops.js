@@ -13,6 +13,7 @@ function whileLoop(number) {
   while (number > 0) {
     console.log(parseInt(number--, 10))
   }
+  return "done"
 }
 
 function maybeTrue() {
